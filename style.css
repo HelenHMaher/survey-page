@@ -1,24 +1,32 @@
 body {
-  
   color: white;
   font-family: "Calibri", sans-serif;
   font-size: 1rem;
-  background-image: linear-gradient(90deg, rgb(128, 0, 0, 0.3), rgb(128, 96, 0, 0.4)), url(http://studio3.com/wp-content/uploads/2015/04/Dirty-Sink-of-Dishes-food-photography-studio-3.jpg);
-}
-h1 {
-  text-align: center;
-  font-size:3rem;
+  background-image: linear-gradient(
+      90deg,
+      rgb(128, 0, 0, 0.3),
+      rgb(128, 96, 0, 0.4)
+    ),
+    url(Dirty-Sink-of-Dishes-food-photography-studio-3.jpg);
 }
 
-p, #name-label, #email-label, #number-label {
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+p,
+#name-label,
+#email-label,
+#number-label {
   font-size: 1.5rem;
 }
 
 .subtitle {
   text-align: center;
   font-style: italic;
-  color: rgba(255, 255, 255, .8);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1)
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .clue {
@@ -49,7 +57,7 @@ label {
 }
 
 .input-textarea {
-  margin: .25;
+  margin: 0.25;
   width: 100%;
   min-height: 4rem;
   border-radius: 0.25rem;
