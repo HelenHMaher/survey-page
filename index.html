@@ -1,4 +1,4 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="style.css"></script>
 
 <div class="container">
   <header class="header">
@@ -8,66 +8,29 @@
   <form id="survey-form">
     <div class="form-section">
       <label id="name-label" for="name">Name</label>
-      <input
-             type="text"
-             name="name"
-             id="name"
-             class="form-control"
-             placeholder="Enter your name"
-             required
-       />
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
     </div>
     <div class="form-section">
       <label id="email-label" for="email">Email</label>
-      <input
-             type="email"
-             name="email"
-             id="email"
-             class="form-control"
-             placeholder="Enter your email"
-             required
-       />
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
     </div>
     <div class="form-section">
       <label id="number-label" for="number">Age</label>
-      <input
-             type="number"
-             name="number"
-             id="number"
-             class="form-control"
-             min="18"
-             max="100"
-             placeholder="Age"
-             required
-        />
+      <input type="number" name="number" id="number" class="form-control" min="18" max="100" placeholder="Age"
+        required />
     </div>
-      
+
     <div class="form-section">
       <p>How good of a roommate are <em>you?</em></p>
       <label id="range-label" for="range">Terrible - Excellent</label>
-      <input
-             type="range"
-             name="range"
-             id="range"
-             class="form-control"
-             min="0"
-             max="10"
-             step="1"
-       />
+      <input type="range" name="range" id="range" class="form-control" min="0" max="10" step="1" />
     </div>
-             
+
     <div class="form-section">
       <label id="roommate-count-label" for="roommate-count"></label>
-      <p>Number of roommates you have had in the last ten years<span class="clue">(not including immediate family)</span></label>
-      <input
-             type="number"
-             name="roommate-count"
-             id="number"
-             class="form-control"
-             min="1"
-             max="200"
-             required
-       />
+      <p>Number of roommates you have had in the last ten years<span class="clue">(not including immediate
+          family)</span></label>
+        <input type="number" name="roommate-count" id="number" class="form-control" min="1" max="200" required />
     </div>
     <div class="form-section">
       <p id="dropdown-label">What best describes your history with roommates?</p>
@@ -83,35 +46,19 @@
     <div class="form-section">
       <p>What best describes the financial condition of your household?</p>
       <label>
-        <input
-               name="financial-status"
-               value="struggling"
-               type="radio"
-               class="input-radio"
-               />Nobody buys off-brand cereal for the taste</label>
+        <input name="financial-status" value="struggling" type="radio" class="input-radio" />Nobody buys off-brand
+        cereal for the taste</label>
       <label>
-        <input
-               name="financial-status"
-               value="getting-by"
-               type="radio"
-               class="input-radio"
-               />Don't touch my hard-earned Cornflakes</label>
+        <input name="financial-status" value="getting-by" type="radio" class="input-radio" />Don't touch my hard-earned
+        Cornflakes</label>
       <label>
-        <input
-               name="financial-status"
-               value="well-enough"
-               type="radio"
-               class="input-radio"
-               />I generally just run by Starbucks on my way into work</label>
+        <input name="financial-status" value="well-enough" type="radio" class="input-radio" />I generally just run by
+        Starbucks on my way into work</label>
       <label>
-        <input
-               name="financial-status"
-               value="good"
-               type="radio"
-               class="input-radio"
-               />Whole Foods is actually pretty reasonable when you think about the value of good nutrition</label>
+        <input name="financial-status" value="good" type="radio" class="input-radio" />Whole Foods is actually pretty
+        reasonable when you think about the value of good nutrition</label>
     </div>
-    
+
     <div class="form-section">
       <p>What best describes your sleeping habits?</p>
       <select id="dropdown2" name="sleep" class="form-control" required>
@@ -123,117 +70,55 @@
         <option value="unreasonable">I can hear you breathing</option>
       </select>
     </div>
-    
+
     <div class="form-section">
       <p>What is your favorite method for managing comunal chores?</p>
       <label>
-        <input
-               name="chores"
-               value="schedule"
-               type="radio"
-               class="input-radio"
-               />Post a rotationg schedule</label>
+        <input name="chores" value="schedule" type="radio" class="input-radio" />Post a rotationg schedule</label>
       <label>
-        <input
-               name="chores"
-               value="assigned-duties"
-               type="radio"
-               class="input-radio"
-               />Assign permanent tasks</label>
+        <input name="chores" value="assigned-duties" type="radio" class="input-radio" />Assign permanent tasks</label>
       <label>
-        <input
-               name="chores"
-               value="stand-off"
-               type="radio"
-               class="input-radio"
-               />Whomever it bugs first does it</label>
+        <input name="chores" value="stand-off" type="radio" class="input-radio" />Whomever it bugs first does it</label>
       <label>
-        <input
-               name="chores"
-               value="martyr"
-               type="radio"
-               class="input-radio"
-               />I'm the only one who does it right</label>
+        <input name="chores" value="martyr" type="radio" class="input-radio" />I'm the only one who does it
+        right</label>
       <label>
-        <input
-               name="chores"
-               value="disaster"
-               type="radio"
-               class="input-radio"
-               />I don't care as long as it's not me</label>
+        <input name="chores" value="disaster" type="radio" class="input-radio" />I don't care as long as it's not
+        me</label>
       <label>
-        <input
-               name="chores"
-               value="outsource"
-               type="radio"
-               class="input-radio"
-               />Hire a service</label>
+        <input name="chores" value="outsource" type="radio" class="input-radio" />Hire a service</label>
     </div>
-    
+
     <div class="form-section">
       <p>What was the roommate selection process like?<span class="clue">(check all that apply)</span></p>
       <label>
-        <input
-               name="source"
-               value="assigned"
-               type="checkbox"
-               class="input-checkbox"
-               />They were forced upon me (dormitory, barracks, etc.)</label>
+        <input name="source" value="assigned" type="checkbox" class="input-checkbox" />They were forced upon me
+        (dormitory, barracks, etc.)</label>
       <label>
-        <input
-               name="source"
-               value="chosen-strangers"
-               type="checkbox"
-               class="input-checkbox"
-               />I took a gamble on strangers (placed or responded to an advertisement)</label>
+        <input name="source" value="chosen-strangers" type="checkbox" class="input-checkbox" />I took a gamble on
+        strangers (placed or responded to an advertisement)</label>
       <label>
-        <input
-               name="source"
-               value="recommendation"
-               type="checkbox"
-               class="input-checkbox"
-               />Through the grapevine (friends of friends)</label>
+        <input name="source" value="recommendation" type="checkbox" class="input-checkbox" />Through the grapevine
+        (friends of friends)</label>
       <label>
-        <input
-               name="source"
-               value="friends"
-               type="checkbox"
-               class="input-checkbox"
-               />We were the best of friends, we were the worst of roommates</label>
+        <input name="source" value="friends" type="checkbox" class="input-checkbox" />We were the best of friends, we
+        were the worst of roommates</label>
       <label>
-        <input
-               name="source"
-               value="sig-other"
-               type="checkbox"
-               class="input-checkbox"
-               />Love is blind (significant other)</label>
+        <input name="source" value="sig-other" type="checkbox" class="input-checkbox" />Love is blind (significant
+        other)</label>
       <label>
-        <input
-               name="source"
-               id="other"
-               value="other"
-               type="checkbox"
-               class="input-checkbox"
-               onclick="otherSource()"
-               />It's kind of a funny story...</label>
+        <input name="source" id="other" value="other" type="checkbox" class="input-checkbox"
+          onclick="otherSource()" />It's kind of a funny story...</label>
       <div class="form-subsection" id="other-source" style="display:none">
-        <textarea
-                  class="input-textarea"
-                  name="other-source"
-                  maxlength= "100"
-                  placeholder="It's kind of a funny story..."></textarea>
+        <textarea class="input-textarea" name="other-source" maxlength="100"
+          placeholder="It's kind of a funny story..."></textarea>
       </div>
     </div>
-    
+
     <div class="form-section">
       <p>Describe your worst roommate experience<span class="clue">(100 characters or less)</span></p>
-      <textarea
-                id="worst-experience"
-                class="input-textarea"
-                name="worst-experience"
-                maxlength= "100"
-                placeholder="So this one time..."
-                ></textarea>
+      <textarea id="worst-experience" class="input-textarea" name="worst-experience" maxlength="100"
+        placeholder="So this one time..."></textarea>
     </div>
     <div class="form-section">
       <button type="submit" id="submit" class="submit-button">
